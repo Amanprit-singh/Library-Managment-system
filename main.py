@@ -20,6 +20,11 @@ def library():
         elif choice == 3:  issue_book()
         elif choice == 4:  return_book()
         elif choice == 5:
-           print("Thank you")
-           break
+            print("\n🙏 Thank you for using the Library Management System!")
+            print("Have a great day!\n")
+            break
+        else:
+            print("\n Invalid choice. Please enter a number between 1 and 5.\n")
+
+           
 library()
